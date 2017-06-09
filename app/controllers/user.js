@@ -1,7 +1,7 @@
 /**
  * Created by gustavoairesmatos on 6/9/17.
  */
-let User = require('User');
+let User = require('../models/user');
 
 module.exports.getUsers = function (req, res) {
     
