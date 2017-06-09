@@ -6,7 +6,7 @@ let mongoose = require('mongoose');
 
 module.exports = function () {
     let schema = mongoose.Schema({
-        name: {
+        fullname: {
             type: String,
             required: true
         },

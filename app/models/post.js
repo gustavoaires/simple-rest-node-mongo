@@ -10,11 +10,11 @@ module.exports = function () {
             required: true
         },
         likes: {
-            type: number,
+            type: Number,
             required: true
         },
         shares: {
-          type: number,
+          type: Number,
             required: true
         },
         user_id: {
